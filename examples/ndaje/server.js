@@ -7,7 +7,7 @@ const port = Number(process.env.PORT || 3000);
 const country = process.env.COLOC_COUNTRY || "SN";
 
 const PRODUCTS = [
-  { name: "Bissap, one litre", price: 1000 },
+  { name: "Bissap, un litre", price: 1000 },
   { name: "Café Touba, 250 g", price: 1500 },
   { name: "Thiakry, a family pot", price: 2000 },
   { name: "Shea butter, 200 g", price: 2500 },
