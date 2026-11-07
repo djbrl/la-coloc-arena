@@ -2,7 +2,7 @@
 // The prices are sample figures that move a little each day (the same all day, the same for everyone), not a real
 // scrape: a real version would fetch them every morning. PORT comes from La Coloc (see examples/hello).
 const http = require("node:http");
-
+//hello world!
 const port = Number(process.env.PORT || 3000);
 
 // Typical prices in FCFA, per kilo unless said otherwise. Tilène is often a little cheaper than Sandaga.
